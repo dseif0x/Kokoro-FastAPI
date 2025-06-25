@@ -20,6 +20,7 @@ spec:
       labels:
         {{- include "kokoro-fastapi.selectorLabels" . | nindent 8 }}
     spec:
+      runtimeClassName: {{ .Values.runtimeClassName }}
       {{- with .Values.kokoroTTS.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
