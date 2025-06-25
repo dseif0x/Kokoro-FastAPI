@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  kokoro-fastapi:
+  - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2025-06-25T11:41:08.475506549Z"
+    description: A Helm chart for deploying the Kokoro FastAPI TTS service to Kubernetes
+    digest: 7f9a068dbeb91a3b8e78af791039bdbdc866c14946a46ad89163f343a7db0bba
+    keywords:
+    - tts
+    - fastapi
+    - gpu
+    - kokoro
+    name: kokoro-fastapi
+    type: application
+    urls:
+    - https://github.com/dseif0x/Kokoro-FastAPI/releases/download/kokoro-fastapi-0.3.0/kokoro-fastapi-0.3.0.tgz
+    version: 0.3.0
+generated: "2025-06-25T11:41:08.475513051Z"
